@@ -1,9 +1,14 @@
-# api documentation for  [ghost (v0.11.7)](http://ghost.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghost.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghost) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghost.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghost)
+# npmdoc-ghost
+
+#### api documentation for  [ghost (v0.11.8)](http://ghost.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-ghost.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ghost) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ghost.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ghost)
+
 #### Just a blogging platform.
 
-[![NPM](https://nodei.co/npm/ghost.png?downloads=true)](https://www.npmjs.com/package/ghost)
+[![NPM](https://nodei.co/npm/ghost.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ghost)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ghost/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ghost_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghost/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ghost/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ghost/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ghost/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ghost/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ghost/build/screenCapture.npmPackageListing.svg)
 
@@ -27,39 +32,39 @@
         "amperize": "0.3.4",
         "archiver": "1.3.0",
         "bcryptjs": "2.4.3",
-        "bluebird": "3.4.7",
-        "body-parser": "1.16.0",
+        "bluebird": "3.5.0",
+        "body-parser": "1.17.0",
         "bookshelf": "0.10.2",
         "chalk": "1.1.3",
         "cheerio": "0.22.0",
         "compression": "1.6.2",
         "connect-slashes": "1.3.1",
         "cookie-session": "1.2.0",
-        "cors": "2.8.1",
+        "cors": "2.8.3",
         "csv-parser": "1.11.0",
         "downsize": "0.0.8",
-        "express": "4.14.1",
+        "express": "4.15.0",
         "express-hbs": "1.0.4",
         "extract-zip-fork": "1.5.1",
-        "fs-extra": "2.0.0",
+        "fs-extra": "2.1.2",
         "ghost-gql": "0.0.6",
         "glob": "5.0.15",
-        "gscan": "0.2.0",
-        "html-to-text": "3.1.0",
+        "gscan": "0.2.3",
+        "html-to-text": "3.2.0",
         "image-size": "0.5.1",
         "intl": "1.2.5",
         "intl-messageformat": "1.3.0",
-        "jsonpath": "0.2.9",
-        "knex": "0.12.5",
+        "jsonpath": "0.2.11",
+        "knex": "0.12.9",
         "lodash": "4.17.4",
-        "moment": "2.17.1",
-        "moment-timezone": "0.5.9",
+        "moment": "2.18.1",
+        "moment-timezone": "0.5.13",
         "morgan": "1.7.0",
         "multer": "1.3.0",
         "mysql": "2.1.1",
         "netjet": "1.1.3",
         "nodemailer": "0.7.1",
-        "oauth2orize": "1.7.0",
+        "oauth2orize": "1.8.0",
         "passport": "0.3.2",
         "passport-http-bearer": "1.0.1",
         "passport-oauth2-client-password": "0.1.2",
@@ -70,10 +75,10 @@
         "semver": "5.3.0",
         "showdown-ghost": "0.3.6",
         "sqlite3": "3.1.8",
-        "superagent": "3.4.1",
+        "superagent": "3.5.2",
         "unidecode": "0.1.8",
         "uuid": "3.0.0",
-        "validator": "6.2.1",
+        "validator": "6.3.0",
         "xml": "1.0.1"
     },
     "description": "Just a blogging platform.",
@@ -97,19 +102,19 @@
         "grunt-update-submodules": "0.4.1",
         "istanbul": "0.4.5",
         "matchdep": "1.0.1",
-        "mocha": "3.1.2",
-        "nock": "9.0.4",
+        "mocha": "3.2.0",
+        "nock": "9.0.13",
         "rewire": "2.5.2",
-        "should": "11.2.0",
-        "should-http": "0.1.0",
+        "should": "11.2.1",
+        "should-http": "0.1.1",
         "sinon": "1.17.7",
         "supertest": "3.0.0",
         "tmp": "0.0.31"
     },
     "directories": {},
     "dist": {
-        "shasum": "d1da9614e4abd047ae55b862366822257bc4a159",
-        "tarball": "https://registry.npmjs.org/ghost/-/ghost-0.11.7.tgz"
+        "shasum": "d6b0026c2fee15ba95c7e15b40668c238537921d",
+        "tarball": "https://registry.npmjs.org/ghost/-/ghost-0.11.8.tgz"
     },
     "engines": {
         "node": "^4.2.0 || ^6.9.0"
@@ -133,20 +138,16 @@
     "main": "./core/index",
     "maintainers": [
         {
-            "name": "erisds",
-            "email": "erisds@gmail.com"
+            "name": "erisds"
         },
         {
-            "name": "johnonolan",
-            "email": "john@onolan.org"
+            "name": "johnonolan"
         },
         {
-            "name": "kevinansfield",
-            "email": "kevin@ghost.org"
+            "name": "kevinansfield"
         },
         {
-            "name": "kirrg001",
-            "email": "katharina.irrgang@googlemail.com"
+            "name": "kirrg001"
         }
     ],
     "name": "ghost",
@@ -154,7 +155,6 @@
         "mysql": "2.1.1",
         "pg": "6.1.2"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/TryGhost/Ghost.git"
@@ -164,19 +164,9 @@
         "start": "node index",
         "test": "grunt validate --verbose"
     },
-    "version": "0.11.7"
+    "version": "0.11.8"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ghost](#apidoc.module.ghost)
-
-
-
-# <a name="apidoc.module.ghost"></a>[module ghost](#apidoc.module.ghost)
 
 
 

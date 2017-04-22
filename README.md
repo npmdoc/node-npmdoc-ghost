@@ -164,7 +164,8 @@
         "start": "node index",
         "test": "grunt validate --verbose"
     },
-    "version": "0.11.8"
+    "version": "0.11.8",
+    "bin": {}
 }
 ```
 
